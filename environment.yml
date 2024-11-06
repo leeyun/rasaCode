@@ -1,0 +1,15 @@
+name: nlp
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.9
+  - numpy
+  - tqdm
+  - regex
+  - pip
+  - pip:
+      - torch
+      - transformers
+      - seqeval
